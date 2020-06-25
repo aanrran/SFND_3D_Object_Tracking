@@ -12,7 +12,7 @@ In this final project,  four major tasks are completed:
 
 Project Final Video Image:
 
-<img src="images/headerImage.png" width="1100" height="414" />
+<img src="images/headerImage.png" width="880" height="320" />
 
 ## Analysis for FP.5 & FP.6
 
@@ -26,21 +26,21 @@ Calculating the TTC(time to collision) with Lidar alone is not sufficient. There
 
    <img src="images/lidarTTCalculationIssues1.png" width="400" height="80" /><img src="images/lidarTTCalculationIssues2.png" width="400" height="80" />
 
-2. The lidar is very sensitive to reflection. Different material have different reflection intensity with laser. So, the lidar will get some noise because of this issue.
-   The two image were generated during lidar processing. We can see sometimes light intensity was 0.99. This might have saturated the lidar laser receiver.  
+   
 
-   <img src="images/lidarRissues1.png" width="400" height="50" /><img src="images/lidarRissues2.png" width="400" height="50" />
+2. The lidar is very sensitive to reflection. Different material have different reflection intensity with laser. So, the lidar will get some noise because of this issue.
+   The two image were generated during lidar processing. We can see sometimes light intensity was 0.99. This might have saturated the lidar laser receiver.  <img src="images/lidarRissues1.png" width="400" height="50" /><img src="images/lidarRissues2.png" width="400" height="50" />
 
 ### FP.6 : Performance Evaluation 2
 
 1. Some image keypoints outliers will bring noise to our calculation. The outlier keypoints are inside the red circle from the corner of the green bounding box.
 
-   <img src="images/cameraPointRegionIssue.png" width="1100" height="414" />
+   <img src="images/cameraPointRegionIssue.png" width="880" height="380" />
 
 2. The TTC was calculated base on the mean keypoints distance. This can only give us a rough estimation. So the accuracy is not very good. We can see the TTC jump by 2s between too frame.
 
-   <img src="images/cameraTimeIssue1.png" width="800" height="414" />
-   <img src="images/cameraTimeIssue2.png" width="800" height="414" />
+   <img src="images/cameraTimeIssue1.png" width="500" height="300" />
+   <img src="images/cameraTimeIssue2.png" width="500" height="300" />
 
    
    
