@@ -23,6 +23,7 @@ Following are my analysis for the project part5 to part6:
 Calculating the TTC(time to collision) with Lidar alone is not sufficient. There can be some common issues shown below:
 
 1.  Some lidar point outliers and indirect speed measurement will have big effect on the TTC accuracy. The below image shows the lidar TTC jump from 9.96s to 11.36s even though the distance from the preceding vehicle did not change too much.
+
    <img src="images/lidarTTCalculationIssues1.png" width="400" height="80" /><img src="images/lidarTTCalculationIssues2.png" width="400" height="80" />
 
    
