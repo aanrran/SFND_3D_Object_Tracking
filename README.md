@@ -40,7 +40,7 @@ Calculating the TTC(time to collision) with Lidar alone is not sufficient. There
 2. The TTC was calculated base on the mean keypoints distance. This can only give us a rough estimation. So the accuracy is not very good. We can see the TTC jump by 2s between too frame.
 
    <img src="images/cameraTimeIssue1.png" width="500" height="300" />
-   <img src="images/cameraTimeIssue2.png" width="500" height="300" />
+   <img src="images/cameraTimeIssue2.png" width="450" height="300" />
 
    
    
